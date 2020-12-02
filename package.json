@@ -1,0 +1,38 @@
+{
+  "name": "anthony-giannotti",
+  "version": "1.0.0",
+  "description": "Thinkful Bookmark App!",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okaysame/bookmark-app.git"
+  },
+  "keywords": [
+    "bookmarks"
+  ],
+  "author": "Anthony Giannotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okaysame/bookmark-app.git"
+  },
+  "homepage": "https://github.com/thinkful-ei-heron/Anthony_Giannotti/#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "cuid": "^2.1.6",
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  }
+}
