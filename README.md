@@ -5,9 +5,9 @@ Demonstrates fuctionality of adding, removing, and editing bookmarks utilizing a
 ````
 npm install
 ````
-# User stories:
+# User stories
 
-As a user
+As a user:
 
 I can add bookmarks to my bookmark list. Bookmarks contain:
 
