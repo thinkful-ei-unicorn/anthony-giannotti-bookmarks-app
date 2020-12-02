@@ -10,11 +10,8 @@ npm install
 
 As a user:
 
-
-```
           • Bullet list
               • Nested bullet
                   • Sub-nested bullet etc
           • Bullet list item 2 
-          
-```          
+               
