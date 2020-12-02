@@ -1,6 +1,7 @@
 # Bookmark App
-```
 [Named Link](http://www.google.fr/ "Named link title")
+```
+\n
 ```
 Demonstrates fuctionality of adding, removing, and editing bookmarks utilizing an API and a local database. 
 ## Installation
