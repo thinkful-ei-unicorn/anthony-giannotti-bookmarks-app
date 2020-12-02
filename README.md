@@ -7,10 +7,13 @@ npm install
 ````
 # User stories
 
+
 As a user:
 
-Markup : * bullet list
-              * Nested
+
+````
+* Bullet list 
+````
 
 
 
