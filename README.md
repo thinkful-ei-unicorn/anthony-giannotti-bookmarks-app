@@ -1,10 +1,10 @@
-# bookmark-app
+# Bookmark App
+Demonstrates functionality for adding, editing, and removing bookmarks utilizing an API and a local database.
 
 
 ## Installation
-````
+
 npm install
-````
 
 ## User Stories
 I can add bookmarks to my bookmark list. Bookmarks contain:
