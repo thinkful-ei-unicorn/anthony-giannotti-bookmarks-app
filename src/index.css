@@ -53,7 +53,7 @@ h1 {
   margin: 10px 0;
 }
 
-#enter-link, #enter-title, #input-description, #filter {
+#enter-link, #enter-title, #input-description {
   text-align: center;
   width: 42%;
   height: 25px;
@@ -61,8 +61,12 @@ h1 {
   border: 1px solid #B0A8B3;
 }
 
-#filter {
+#filter, #rating {
+  text-align: center;
   width: 20%;
+  border-radius: 10px;
+  border: 1px solid #B0A8B3;
+  height: 22px;
 }
 
 button {
@@ -140,7 +144,11 @@ a:hover   { color: #FFC0CB; }
     margin-bottom: 10px;
   }
   
-  #filter, .filter {
-    width: 12%;
+  #filter, .filter, #rating {
+    width: 18%;
+  }
+
+  .save-and-cancel {
+    margin-top: 10px;
   }
 }
