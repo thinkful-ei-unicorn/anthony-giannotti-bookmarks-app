@@ -1,10 +1,12 @@
-
 body {
   background-color: #D9D9D9;
   color: #59564B;
   margin: auto;
   padding: 10px 10px;
+  padding-top: 25px;
+  padding-bottom: 100px;
   text-align: center;
+  font-family: 'Baloo Chettan 2';
   font-size: 18px;
   letter-spacing: 1.5px;
 }
@@ -25,51 +27,83 @@ h1 {
   font-size: 24px;
 }
 
-.bookmark-item {
-  background-color: #EDEDED;
+#bookmark, .expand, .error-content {
+  font-size: 16px;
+  background-color: #F7F7F7;
   border-radius: 20px;
   border: 1px solid #B0A8B3;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  width: 65%;
   order: 1;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+
+.error-content {
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin: 10px 0;
+}
+
+#enter-link, #enter-title, #input-description {
+  text-align: center;
+  width: 42%;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid #B0A8B3;
+}
+
+#filter, #rating {
+  text-align: center;
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid #B0A8B3;
+  height: 22px;
 }
 
 button {
   padding: 16px;
-  margin-bottom: 23px;
-  margin-top: 10px;
+  margin: 20px 5px;
   border-radius: 10px;
   border: 1px solid #B0A8B3;
   background-color: #F7F7F7;
 }
 
-ul {
-  list-style-type:none;
-  text-align: center;
-  list-style-position: inside;
-}
-
-.bookmark-item, .bookmark-item_expanded {
-  background-color: #F7F7F7;
-  padding: 10px 10px;
-  margin: auto;
+#new-button {
+  width: 45%;
+  font: 'Baloo Chettan 2';
+  font-size: 14px;
 }
 
 .my-bookmarks-view {
   margin: auto;
 }
 
+.rating-box {
+  margin: 15px;
+}
+
+
+
 a:link    { color:#546E7A; }
 a:hover   { color: #FFC0CB; }
 
-@media all and (min-width: 920px) {
+@media all and (min-width: 800px) {
 
   body {
     background-color: #D9D9D9;
     color: #59564B;
     margin: auto;
-    padding: 10px 10px;
+    padding: 10px;
+    padding-top: 100px;
     text-align: center;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 18px;
@@ -83,21 +117,38 @@ a:hover   { color: #FFC0CB; }
     padding: 50px;
     background-color: #EDEDED;
     border-radius: 20px;
-    margin: 50px 175px 160px;
+    width: 35%;
+    margin: auto;
   }
 
-  button {
-    margin-top: 24px;
+  button, .add-bookmark {
+    margin:auto;
+    margin-bottom: 8px;
   } 
 
   .bookmark-item {
     background-color: #F7F7F7;
-    padding: 10px 10px;
+    width: 50%;
     margin: auto;
   }
   
   .my-bookmarks-view {
     margin: 0px 100px;
   }
-}
 
+  #enter-link, #enter-title, #input-description, #filter-filter, #filter {
+    width: 45%;
+  }
+
+  .ratings {
+    margin-bottom: 10px;
+  }
+  
+  #filter, .filter, #rating {
+    width: 18%;
+  }
+
+  .save-and-cancel {
+    margin-top: 10px;
+  }
+}
